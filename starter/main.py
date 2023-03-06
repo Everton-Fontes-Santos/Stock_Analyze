@@ -1,3 +1,3 @@
 def func():
-    "asda"
-    return ''
+    """Simple Function describe documentation."""
+    return ""
