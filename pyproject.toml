@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "starter"
+name = "stock_analyser"
 version = "0.1.0"
-description = ""
+description = "This its a script thats make analyses of stock based on filters"
 authors = ["Everton Fontes <efs.fontes@gmail.com>"]
 readme = "README.md"
 
@@ -39,5 +39,5 @@ line_length = 79
 lint = "black . && isort --check --diff . && prospector --with-tool pydocstyle --doc-warning"
 docs = "mkdocs serve"
 pre_test = "task lint"
-test = "pytest -s -x --cov=starter -vv"
+test = "pytest -s -x --cov=anallyser -vv"
 post_test = "coverage html"
